@@ -126,7 +126,7 @@ const storeCustomer = () => {
                             >郵便番号</label
                           >
                           <input
-                            type="number"
+                            type="text"
                             id="postcode"
                             name="postcode"
                             @change="fetchAddress"
